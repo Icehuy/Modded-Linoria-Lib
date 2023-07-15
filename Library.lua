@@ -47,6 +47,13 @@ local Library = {
     Signals = {};
     ScreenGui = ScreenGui;
 };
+local ui_utility = {
+    image_color = {},
+    tab_trans = {},
+    group_trans = {},
+    keybinds_trans = {},
+    watermark_trans = {}
+}
 
 local change_transa = 0
 local RainbowStep = 0
